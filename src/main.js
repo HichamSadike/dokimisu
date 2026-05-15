@@ -4,9 +4,10 @@ const WHATSAPP_NUMBER = '31637322781';
 const WHATSAPP_TEXT = encodeURIComponent('Hi Dokimisu, ik wil graag tiramisu bestellen.');
 const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_TEXT}`;
 
-const heroImage = '/assets/tiramisu-cup.jpg';
-const sliceImage = '/assets/cocoa-closeup.jpg';
-const packagingImage = '/assets/takeaway-packaging.jpg';
+const ASSET_VERSION = 'visual-refresh-2026-05-15-r2';
+const heroImage = `/assets/tiramisu-cup.jpg?v=${ASSET_VERSION}`;
+const sliceImage = `/assets/cocoa-closeup.jpg?v=${ASSET_VERSION}`;
+const packagingImage = `/assets/takeaway-packaging.jpg?v=${ASSET_VERSION}`;
 
 const issues = [
   {
