@@ -1,7 +1,7 @@
 import './styles.css';
 
-// Replace with the real phone number in international format, without + or spaces.
-const WHATSAPP_NUMBER = '31600000000';
+// WhatsApp number in international format, without + or spaces.
+const WHATSAPP_NUMBER = '31637322781';
 const WHATSAPP_TEXT = encodeURIComponent('Hi Dokimisu, ik wil graag tiramisu bestellen.');
 const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_TEXT}`;
 

@@ -12,4 +12,4 @@ npm run build
 
 ## WhatsApp number
 
-Update `WHATSAPP_NUMBER` in `src/main.js` with the real international phone number, without `+` or spaces.
+The WhatsApp CTA uses `31637322781` (`+31 6 37322781`) via `WHATSAPP_NUMBER` in `src/main.js`.
